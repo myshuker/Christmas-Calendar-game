@@ -1,0 +1,380 @@
+[
+    {
+      "question": "What do we call the period of 4 Sundays before Christmas?",
+      "answers": {
+        "a": "Advent",
+        "b": "Epiphany",
+        "c": "Christmas Period"
+      },
+      "correctAnswer": "Advent"
+    },
+    {
+        "question": "The Christmas tree in Trafalgar Square has been donated by which country since 1947?",
+        "answers": {
+          "a": "Denmark",
+          "b": "Sweden",
+          "c": "Norway"
+        },
+        "correctAnswer": "Norway"
+      },
+      {
+        "question": "What was the first brand to use Santa Claus in its advertisements?",
+        "answers": {
+          "a": "Pepsi",
+          "b": "Coca-Cola",
+          "c": "McDonald"
+        },
+        "correctAnswer": "Coca-Cola"
+      },
+      {
+        "question": "Which popular Christmas song was originally composed for Thanksgiving?",
+        "answers": {
+          "a": "Silent Night",
+          "b": "Run Rudolph Run",
+          "c": "Jingle Bells"
+        },
+        "correctAnswer": "Jingle Bells"
+      },
+      {
+        "question": "Who wrote the novel “A Christmas Carol”?",
+        "answers": {
+          "a": "Charles Dickens",
+          "b": "Oscar Wilde",
+          "c": "William Shakespeare"
+        },
+        "correctAnswer": "Charles Dickens"
+      },
+      {
+        "question": "What was the highest grossing movie about Christmas of all time?",
+        "answers": {
+          "a": "Love Actually",
+          "b": "Home Alone",
+          "c": "The Polar Express"
+        },
+        "correctAnswer": "Home Alone"
+      },
+      {
+        "question": "The tradition of putting up and decorating a Christmas tree began in which country?",
+        "answers": {
+          "a": "France",
+          "b": "Italy",
+          "c": "Germany"
+        },
+        "correctAnswer": "Germany"
+      },
+      {
+        "question": "When does the Boxing Day take place annually?",
+        "answers": {
+          "a": "On December 23rd",
+          "b": "On December 26th",
+          "c": "On December 27th"
+        },
+        "correctAnswer": ". On December 26th"
+      },  {
+        "question": "What is the original meaning of Christmas?",
+        "answers": {
+          "a": "To commemorate the death of Jesus Christ",
+          "b": "To remember the birth of Jesus Christ",
+          "c": "To honour Christianity"
+        },
+        "correctAnswer": "To remember the birth of Jesus Christ"
+      },
+      {
+        "question": "The first Christmas card was sent in which year?",
+        "answers": {
+          "a": "1802",
+          "b": "1843",
+          "c": "1895"
+        },
+        "correctAnswer": "1843"
+      },
+      {
+        "question": "Which of the following is not another name for Santa Claus?",
+        "answers": {
+          "a": "Red Uncle",
+          "b": "Kris Kringle",
+          "c": "Saint Nick"
+        },
+        "correctAnswer": "Red Uncle"
+      },
+      {
+        "question": "In which country does a witch rather than Santa Claus drops gifts through the chimney for kids on Christmas?",
+        "answers": {
+          "a": "Finland",
+          "b": "Poland",
+          "c": "Italy"
+        },
+        "correctAnswer": "Italy"
+      },
+      {
+        "question": "Which are the two typical colours of Christmas candy canes?",
+        "answers": {
+          "a": "Green and red",
+          "b": "Red and blue",
+          "c": " White and red"
+        },
+        "correctAnswer": " White and red"
+      },
+      {
+        "question": "Including Rudolph, how many reindeers pull the sleigh and help Santa Claus send gifts to kids on Christmas Eve?",
+        "answers": {
+          "a": "7",
+          "b": "8",
+          "c": "9"
+        },
+        "correctAnswer": "9"
+      },
+      {
+        "question": "What is the most popular decorative ornament placed on top of a Christmas tree?",
+        "answers": {
+          "a": "Angels",
+          "b": "Christian crosses",
+          "c": "Stars"
+        },
+        "correctAnswer": "Angels"
+      },
+      {
+        "question": "Where was Jesus Christ born?",
+        "answers": {
+          "a": "Jerusalem",
+          "b": "Bethlehem",
+          "c": "Tel Aviv"
+        },
+        "correctAnswer": "Bethlehem"
+      },
+      {
+        "question": " Which wild bird is usually featured on Christmas cards in Britain?",
+        "answers": {
+          "a": "Black-capped chickadee",
+          "b": "Cardinal",
+          "c": "Robin"
+        },
+        "correctAnswer": "Robin"
+      },
+      {
+        "question": "Which play was written by William Shakespeare as a Christmas present?",
+        "answers": {
+          "a": "The Merry Wives of Windsor",
+          "b": "Two Gentlemen of Verona",
+          "c": "Winter’s Tale"
+        },
+        "correctAnswer": "The Merry Wives of Windsor"
+      },
+      {
+        "question": "What is traditionally hidden in a Christmas pudding?",
+        "answers": {
+          "a": "star",
+          "b": "A silver coin",
+          "c": "A small piece of paper"
+        },
+        "correctAnswer": "A silver coin"
+      },
+      {
+        "question": "The “true love” of the singer gives him how many gold rings in “The 12 Days of Christmas”?",
+        "answers": {
+          "a": "1",
+          "b": "3",
+          "c": "5"
+        },
+        "correctAnswer": "5"
+      },
+      {
+        "question": " What is the name for the traditional dish at Christmas dinner that wraps sausages in bacon?",
+        "answers": {
+          "a": "Pigs in bacon",
+          "b": "Pigs in layers",
+          "c": "Pigs in blankets"
+        },
+        "correctAnswer": "Pigs in blankets"
+      },
+      {
+        "question": "Who was the first person to introduce the Christmas tree to the United Kingdom?",
+        "answers": {
+          "a": "A royal member",
+          "b": "A merchant",
+          "c": "A priest"
+        },
+        "correctAnswer": "A royal member"
+      },
+      {
+        "question": "How to say “Merry Christmas” in Spanish?",
+        "answers": {
+          "a": "Felices fiestas",
+          "b": "Feliz Nuevo",
+          "c": "Feliz Navidad"
+        },
+        "correctAnswer": "Feliz Navidad"
+      },
+      {
+        "question": "According to superstition, in which direction should you always stir when making mince pies on Christmas?",
+        "answers": {
+          "a": "Clockwise",
+          "b": "Anticlockwise",
+          "c": "It depends"
+        },
+        "correctAnswer": "Clockwise"
+      },
+      {
+        "question": "The traditional “Father Christmas” or Santa Claus in Britain was originally not dressed in red. Which colour did he wear?",
+        "answers": {
+          "a": "Blue",
+          "b": "Golden",
+          "c": "Green"
+        },
+        "correctAnswer": "Green"
+      },
+      {
+        "question": "There are two islands named Christmas in the world. One is located in the Indian Ocean and the other is located in which ocean?",
+        "answers": {
+          "a": "Pacific Ocean",
+          "b": "Atlantic Ocean",
+          "c": "Arctic Ocean"
+        },
+        "correctAnswer": "Pacific Ocean"
+      },
+      {
+        "question": "What was the first use of Christmas candy canes?",
+        "answers": {
+          "a": "To use as a dessert at Christmas dinner",
+          "b": "To keep noisy kids quiet during the church service",
+          "c": "To use as a dessert at Christmas dinner"
+        },
+        "correctAnswer": "To keep noisy kids quiet during the church service"
+      },
+      {
+        "question": "Which famous Christmas song was played on the trenches of both German and English on Christmas Eve 1914?",
+        "answers": {
+          "a": "Silent Night",
+          "b": "O Holy Night",
+          "c": "O Little Town of Bethlehem"
+        },
+        "correctAnswer": "Silent Night"
+      },
+      {
+        "question": "How many points does a snowflake traditionally have?",
+        "answers": {
+          "a": "5",
+          "b": "6",
+          "c": "7"
+        },
+        "correctAnswer": "6"
+      },
+      {
+        "question": "What is the colour of the berries on Mistletoe?",
+        "answers": {
+          "a": " White",
+          "b": "Red",
+          "c": "Green"
+        },
+        "correctAnswer": " White"
+      },
+      {
+        "question": "Who wrote A Christmas Carol?",
+        "answers": {
+          "a": "Charles Dickens",
+          "b": "Washington Irvin",
+          "c": "Douglas Jerrold"
+        },
+        "correctAnswer": "Charles Dickens"
+      },
+      {
+        "question": "What is the name of Santa’s wife?",
+        "answers": {
+          "a": "Jessica Mary Clause",
+          "b": "Mary Clause",
+          "c": "Jess Mary Clause"
+        },
+        "correctAnswer": "Jessica Mary Clause"
+      },
+      {
+        "question": "Who was the star of the Christmas movie Jingle All the Way?",
+        "answers": {
+          "a": "Arnold Schwarzenegger",
+          "b": "Randy Kornfield",
+          "c": "David Adkins"
+        },
+        "correctAnswer": "Arnold Schwarzenegger"
+      },
+      {
+        "question": "Who was the star of the movie titled White Christmas?",
+        "answers": {
+          "a": "Bing Crosby",
+          "b": "Danny Kaye",
+          "c": "Rosemary Clooney"
+        },
+        "correctAnswer": "Bing Crosby"
+      },
+      {
+        "question": "Which Christmas food is it considered good luck to eat one of on each of the 12 days of Christmas?",
+        "answers": {
+          "a": "Mince Pies",
+          "b": "Turkey",
+          "c": "Chicken"
+        },
+        "correctAnswer": "Mince Pies"
+      },
+      {
+        "question": "What do you leave for Santa?",
+        "answers": {
+          "a": "Milk and cookies",
+          "b": "Candy Canes",
+          "c": "Nut Cracker "
+        },
+        "correctAnswer": "Milk and cookies,"
+      },
+      {
+        "question": "Where is the world’s largest nativity scene?",
+        "answers": {
+          "a": "Einsiedeln,",
+          "b": "Helsinki",
+          "c": " Norway"
+        },
+        "correctAnswer": "Einsiedeln,"
+      },
+      {
+        "question": "What do Christians associate with the wreath?",
+        "answers": {
+          "a": "The crown of thorns worn by Jesus",
+          "b": "Red candles",
+          "c": "Purple candles"
+        },
+        "correctAnswer": "The crown of thorns worn by Jesus"
+      },
+      {
+        "question": "What’s the most popular Christmas play featuring toys that come to life?",
+        "answers": {
+          "a": "The Nutcracker",
+          "b": "elf",
+          "c": "rudolph"
+        },
+        "correctAnswer": "The Nutcracker"
+      },
+      {
+        "question": "According to the Holy Bible, Jesus Christ was born in a",
+        "answers": {
+          "a": "Stable",
+          "b": "shed",
+          "c": "Kennels"
+        },
+        "correctAnswer": "Stable"
+      },
+      {
+        "question": "Who helps Santa Claus in making his gifts?",
+        "answers": {
+          "a": "Elves and Mrs. Claus!,",
+          "b": "Rudolph",
+          "c": "Reindeer"
+        },
+        "correctAnswer": "Elves and Mrs. Claus!,"
+      },
+      {
+        "question": "Who once stole Christmas?",
+        "answers": {
+          "a": "The Grinch",
+          "b": "Elf",
+          "c": "Reindeer"
+        },
+        "correctAnswer": "The Grinch"
+      }
+      
+  ]
