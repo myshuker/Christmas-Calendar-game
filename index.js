@@ -16,10 +16,7 @@ for (let i = 1; i <= 31; i++) {
 
   //create Results handler
   showResults = () => {
-
-    // location.reload();
-    //redirect to new Page
-    // window.location = "./answers.html";
+    document.getElementById("content-page").style.display = "none"; // to hide all the elements page
 
     console.log("number" + i);
     const randomNumber = Math.round(Math.random() * 41);
@@ -54,14 +51,12 @@ for (let i = 1; i <= 31; i++) {
             answerB.setAttribute("disabled", true);
             answerC.setAttribute("disabled", true);
             button.setAttribute("disabled", true);
-
           } else {
             answerA.className = "btn-danger";
             answerB.setAttribute("disabled", true);
             answerC.setAttribute("disabled", true);
             alert("Your answer is wrong");
             button.setAttribute("disabled", true);
-
           }
         });
 
@@ -72,14 +67,12 @@ for (let i = 1; i <= 31; i++) {
             answerA.setAttribute("disabled", true);
             answerC.setAttribute("disabled", true);
             button.setAttribute("disabled", true);
-
           } else {
             answerB.className = "btn-danger";
             answerA.setAttribute("disabled", true);
             answerC.setAttribute("disabled", true);
             alert("Your answer is wrong");
             button.setAttribute("disabled", true);
-
           }
         });
 
@@ -90,14 +83,12 @@ for (let i = 1; i <= 31; i++) {
             answerB.setAttribute("disabled", true);
             answerA.setAttribute("disabled", true);
             button.setAttribute("disabled", true);
-
           } else {
             answerC.className = "btn-danger";
             answerB.setAttribute("disabled", true);
             answerA.setAttribute("disabled", true);
             alert("Your answer is wrong");
             button.setAttribute("disabled", true);
-
           }
         });
       });
