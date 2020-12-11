@@ -16,8 +16,6 @@ body {
   background-size: cover;
 }
 
-.number-container {
-}
 
 .number {
   width: 80px;
@@ -38,6 +36,3 @@ body {
   color: #080;
 }
 
-.answers {
-  text-align: center;
-}
