@@ -27,19 +27,19 @@ for (let i = 1; i <= 31; i++) {
   showResults = () => {
     document.getElementById("content-page").style.display = "none"; // to hide all the elements page
 
-    console.log("number" + i);
+    // console.log("number" + i);
     const randomNumber = Math.round(Math.random() * 41);
-    console.log(randomNumber);
+    // console.log(randomNumber);
 
     fetch("./questions.json")
       .then((res) => res.json())
       .then((data) => {
         Questions.splice(0, Questions.length); //remove all elements from the array and clean the original array.
         Questions.push(data);
-        console.log(Questions);
+        // console.log(Questions);
         const question = Questions[0][randomNumber].question;
         quiz.innerHTML = question;
-        console.log(quiz);
+        // console.log(quiz);
 
         const answer1 = Questions[0][randomNumber].answers.a;
         const answer2 = Questions[0][randomNumber].answers.b;
