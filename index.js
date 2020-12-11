@@ -14,15 +14,14 @@ for (let i = 1; i <= 31; i++) {
   button.innerHTML = i;
   numberContainer.appendChild(button);
 
+  // get today
+  const date = new Date();
+  const currentDate = date.getDate();
+  // console.log(currentDate)
 
-  const date=new Date();
-  const currentDate=date.getDate();
-  console.log(currentDate+1)
-  
-if(currentDate !== i ){
-  button.setAttribute("disabled", true);  
-}
-
+  if (currentDate !== i) {
+    button.setAttribute("disabled", true);
+  }
 
   //create Results handler
   showResults = () => {
