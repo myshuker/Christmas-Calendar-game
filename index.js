@@ -10,15 +10,16 @@ document.getElementById("turns").style.display = "none"; // to hide all the elem
 // create Buttons days
 for (let i = 1; i <= 31; i++) {
   let button = document.createElement("button");
-  button.className = "number  btn btn-danger d-flex justify-content-center align-items-center";
+  button.className =
+    "number  btn btn-danger d-flex justify-content-center align-items-center";
   button.innerHTML = i;
   numberContainer.appendChild(button);
 
   // get today
   const date = new Date();
   const currentDate = date.getDate();
-  // console.log(currentDate)
 
+  // to disable that day not match today
   if (currentDate !== i) {
     button.setAttribute("disabled", true);
   }
@@ -27,8 +28,9 @@ for (let i = 1; i <= 31; i++) {
   showResults = () => {
     document.getElementById("content-page").style.display = "none"; // to hide all the elements page
 
+    // create go back button
     let goBackButton = document.createElement("button");
-    goBackButton.className = "  btn-secondary";
+    goBackButton.className = "btn btn-secondary";
     goBackButton.innerText = "Go Back";
     goBackButton.setAttribute("disabled", true);
     goBack.appendChild(goBackButton);
@@ -36,14 +38,13 @@ for (let i = 1; i <= 31; i++) {
     goBack.addEventListener("click", () => {
       document.getElementById("content-page").style.display = "block"; // to show all the elements page
       document.getElementById("question").style.display = "none"; // to hide all the question section
-      button.setAttribute("disabled", true);
-    document.getElementById("turns").style.display = "block"; // to hide all the elements page
-
-
+      button.setAttribute("disabled", true); // to disable all the buttons days
+      document.getElementById("turns").style.display = "block"; // to hide all the elements page
     });
 
-    const randomNumber = Math.round(Math.random() * 41);
+    const randomNumber = Math.round(Math.random() * 41); // create random number
 
+    // get data from question.json file
     fetch("./questions.json")
       .then((res) => res.json())
       .then((data) => {
