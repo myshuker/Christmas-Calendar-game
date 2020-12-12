@@ -10,7 +10,7 @@ document.getElementById("turns").style.display = "none"; // to hide all the elem
 // create Buttons days
 for (let i = 1; i <= 31; i++) {
   let button = document.createElement("button");
-  button.className = "number btn btn-danger";
+  button.className = "number  btn btn-danger d-flex justify-content-center align-items-center";
   button.innerHTML = i;
   numberContainer.appendChild(button);
 

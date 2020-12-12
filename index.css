@@ -16,7 +16,6 @@ body {
   background-size: cover;
 }
 
-
 .number {
   width: 80px;
   height: 80px;
@@ -36,3 +35,36 @@ body {
   color: #080;
 }
 
+/* -- responsive design -- */
+
+@media only screen and (max-width: 576px) {
+  .number {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .number {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  img {
+    width: 20px;
+  }
+  body {
+    height: 100%;
+  }
+}
