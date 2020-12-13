@@ -38,6 +38,12 @@ body {
     height: 110px;
     margin: 25px;
   }
+  #answerA,
+  #answerB,
+  #answerC,
+  #quiz {
+    font-size: 48px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -46,6 +52,15 @@ body {
     height: 80px;
     margin: 10px;
   }
+  #quiz {
+    font-size: 36px;
+  }
+
+  #answerA,
+  #answerB,
+  #answerC {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -53,6 +68,14 @@ body {
     width: 50px;
     height: 50px;
     margin: 10px;
+  }
+  #quiz {
+    font-size: 30px;
+  }
+  #answerA,
+  #answerB,
+  #answerC {
+    font-size: 24px;
   }
 }
 
@@ -79,6 +102,7 @@ body {
     height: 100vh;
   }
 }
+
 @media only screen and (max-width: 380px) {
   .number {
     width: 50px;
@@ -88,9 +112,12 @@ body {
     height: 100vh;
     width: 100%;
   }
- 
+  #quiz {
+    font-size: 24px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
- 
   body {
     height: 100vh;
   }
@@ -98,5 +125,10 @@ body {
     width: 45px;
     height: 45px;
     margin: 4px;
+  }
+  #answerA,
+  #answerB,
+  #answerC {
+    font-size: 20px;
   }
 }
