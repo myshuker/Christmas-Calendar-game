@@ -19,12 +19,13 @@ body {
   margin: 20px;
   text-align: center;
   background-color: #de5046;
-  border: 2px solid #000;
+  border: 2px solid #ffffff;
   font-size: 20px;
 }
 
 #quiz {
   font-size: 40px;
+  font-weight: 600;
 }
 
 #answers {

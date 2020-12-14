@@ -12,7 +12,7 @@ document.getElementById("answers").style.display = "none"; // to hide all the el
 for (let i = 1; i <= 31; i++) {
   let button = document.createElement("button");
   button.className =
-    "number  btn btn-danger d-flex justify-content-center align-items-center";
+    " btn btn-danger d-flex justify-content-center align-items-center number ";
   button.innerHTML = i;
   numberContainer.appendChild(button);
 
@@ -23,7 +23,7 @@ for (let i = 1; i <= 31; i++) {
   // to disable that day not match today
   if (currentDate !== i) {
     button.setAttribute("disabled", true);
-  }else{
+  } else {
     button.style.backgroundColor = "green";
   }
 
@@ -44,8 +44,7 @@ for (let i = 1; i <= 31; i++) {
       document.getElementById("question").style.display = "none"; // to hide all the question section
       button.setAttribute("disabled", true); // to disable all the buttons days
       document.getElementById("turns").style.display = "block"; // to hide all the elements page
-    button.style.removeProperty("background-color");
-
+      button.style.removeProperty("background-color");
     });
 
     const randomNumber = Math.round(Math.random() * 41); // create random number
@@ -64,9 +63,9 @@ for (let i = 1; i <= 31; i++) {
         answerA.innerHTML = answer1;
         answerB.innerHTML = answer2;
         answerC.innerHTML = answer3;
-        answerA.className = "btn-warning m-2 rounded-lg";
-        answerB.className = "btn-warning m-2 rounded-lg";
-        answerC.className = "btn-warning m-2 rounded-lg";
+        answerA.className = "btn-info m-2 rounded-lg";
+        answerB.className = "btn-info m-2 rounded-lg";
+        answerC.className = "btn-info m-2 rounded-lg";
 
         // add action to answers buttons
         answerA.addEventListener("click", () => {
