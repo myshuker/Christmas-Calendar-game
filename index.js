@@ -75,11 +75,20 @@ for (let i = 1; i <= 31; i++) {
           answerC.setAttribute("disabled", true);
 
           if (answer1 == correctAnswer) {
-            alert("Your answer is correct");
+            // alert("Your answer is correct");
             answerA.className = "btn-success m-2 rounded-lg";
+            answerB.className = "btn-danger m-2 rounded-lg";
+            answerC.className = "btn-danger m-2 rounded-lg";
           } else {
-            alert("Your answer is wrong");
+            // alert("Your answer is wrong");
             answerA.className = "btn-danger m-2 rounded-lg";
+            if (answerB == correctAnswer) {
+              answerB.className = "btn-success m-2 rounded-lg";
+              answerC.className = "btn-danger m-2 rounded-lg";
+            } else {
+              answerC.className = "btn-success m-2 rounded-lg";
+              answerB.className = "btn-danger m-2 rounded-lg";
+            }
           }
         });
 
@@ -90,11 +99,20 @@ for (let i = 1; i <= 31; i++) {
           answerC.setAttribute("disabled", true);
 
           if (answer2 == correctAnswer) {
-            alert("Your answer is correct");
+            // alert("Your answer is correct");
             answerB.className = "btn-success m-2 rounded-lg";
+            answerA.className = "btn-danger m-2 rounded-lg";
+            answerC.className = "btn-danger m-2 rounded-lg";
           } else {
-            alert("Your answer is wrong");
+            // alert("Your answer is wrong");
             answerB.className = "btn-danger m-2 rounded-lg";
+            if (answerA == correctAnswer) {
+              answerA.className = "btn-success m-2 rounded-lg";
+              answerC.className = "btn-danger m-2 rounded-lg";
+            } else {
+              answerC.className = "btn-success m-2 rounded-lg";
+              answerA.className = "btn-danger m-2 rounded-lg";
+            }
           }
         });
 
@@ -105,11 +123,20 @@ for (let i = 1; i <= 31; i++) {
           answerC.setAttribute("disabled", true);
 
           if (answer3 == correctAnswer) {
-            alert("Your answer is correct");
+            // alert("Your answer is correct");
             answerC.className = "btn-success m-2 rounded-lg";
+            answerA.className = "btn-danger m-2 rounded-lg";
+            answerB.className = "btn-danger m-2 rounded-lg";
           } else {
-            alert("Your answer is wrong");
+            // alert("Your answer is wrong");
             answerC.className = "btn-danger m-2 rounded-lg";
+            if (answerA == correctAnswer) {
+              answerA.className = "btn-success m-2 rounded-lg";
+              answerB.className = "btn-danger m-2 rounded-lg";
+            } else {
+              answerB.className = "btn-success m-2 rounded-lg";
+              answerA.className = "btn-danger m-2 rounded-lg";
+            }
           }
         });
       });
