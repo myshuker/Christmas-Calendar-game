@@ -21,61 +21,91 @@
 
     <title>Christmas Games</title>
   </head>
-  <body style="background-image: url('background.gif')">
-    <div class="container p-3">
-      <div class="content-page">
-        <div id="content-page">
-          <header>
-            <div class="container text-center p-3">
-              <div class="row d-flex justify-content-center">
-                <img
-                  src="christmas-tree.svg"
-                  alt="christmas-tree"
-                  width="40px"
-                />
-                <h1>Christmas Game</h1>
-                <img
-                  src="christmas-tree.svg"
-                  alt="christmas-tree"
-                  width="40px"
-                />
+
+  <body style="background-image: url('background.jpg')">
+    <div class="body">
+      <div class="container p-3">
+        <div class="content-page">
+          <div id="content-page">
+            <header>
+              <div class="container text-center p-3">
+                <div class="row d-flex justify-content-center">
+                  <img
+                    src="christmas-tree.svg"
+                    alt="christmas-tree"
+                    width="40px"
+                  />
+                  <h1>Christmas Game</h1>
+                  <img
+                    src="christmas-tree.svg"
+                    alt="christmas-tree"
+                    width="40px"
+                  />
+                </div>
+
+                <h4>How much do you know about Christmas ?</h4>
+                <h2 id="turns" class="bg-secondary text-white p-2">
+                  You don't have any more turns today
+                </h2>
               </div>
+            </header>
 
-              <h4>How much do you know about Christmas ?</h4>
-              <h2 id="turns" class="bg-secondary text-white p-2">
-                You don't have any more turns today
-              </h2>
+            <!-- Days section -->
+            <section>
+              <div
+                id="number-container"
+                class="d-flex flex-wrap justify-content-between"
+              ></div>
+            </section>
+          </div>
+          <!-- Questions section -->
+          <section id="question">
+            <div class="container">
+              <div class="text-center p-4">
+                <div id="quiz"></div>
+                <div id="answers" class="justify-content-center">
+                  <button id="answerA"></button>
+                  <button id="answerB"></button>
+                  <button id="answerC"></button>
+                </div>
+              </div>
             </div>
-          </header>
-
-          <!-- Days section -->
-          <section>
-            <div
-              id="number-container"
-              class="d-flex flex-wrap justify-content-between"
-            ></div>
+            <div id="goBack" class="m-5"></div>
           </section>
         </div>
-        <!-- Questions section -->
-        <section id="question">
-          <div class="container">
-            <div class="text-center p-4">
-              <div id="quiz"></div>
-              <div id="answers" class="justify-content-center">
-                <button id="answerA"></button>
-                <button id="answerB"></button>
-                <button id="answerC"></button>
-              </div>
-            </div>
-          </div>
-          <div id="goBack" class="m-5"></div>
-        </section>
       </div>
     </div>
-<footer>
-<div class="container">
-</div>
-</footer>
+    <!-- footer -->
+
+    <footer class="card-footer text-white bg-secondary">
+      <div class="text-center">
+        <h5>
+          <div>
+            <span> &copy; </span> 2020 All rights reserved. Designed and
+            developed by :
+          </div>
+          <span>
+            <a
+              href="https://myshuker.github.io/myPortfolio/#/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mohammad Alshoker
+            </a></span
+          >
+          and
+          <span>
+            <a
+              href="https://github.com/Heema5657"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Heema Negandhi
+            </a>
+          </span>
+        </h5>
+      </div>
+    </footer>
 
     <!-- Start bootstrap Script -->
     <script
