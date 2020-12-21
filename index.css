@@ -6,13 +6,16 @@
 
 body {
   position: relative;
+  background-image: url('background.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .body {
   height: 90vh;
   width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
   font-family: "Roboto", sans-serif;
 }
 footer {
